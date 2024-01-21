@@ -274,7 +274,7 @@ if($_POST)
    $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
    $mail->Username   = 'kjahson@gmail.com';                     // SMTP username
-   $mail->Password   = 'Fullstack818';                         // SMTP password
+   $mail->Password   = '';                         // SMTP password
    $mail->SMTPSecure = 'TLS';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
    $mail->Port       = 587;                                    // TCP port to connect to
 
